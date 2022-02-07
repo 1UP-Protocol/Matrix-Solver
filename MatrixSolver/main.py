@@ -178,34 +178,4 @@ else:
                           [dic2["I0"], dic2["I1"], dic2["I2"], dic2["I3"], dic2["I4"]]])
         print(M.rref())
 
-# a, b = map(int, input().split())
-# radius_list = [3,8,7,9]
-# print(map(area, radius_list))
-# print(list(map(area,radius_list)))
-#
-# a,b,c,d = map(area, radius_list)
-#
-# lol = list(map(area,radius_list))
-# # print(lol[1])
-# #
-# temps = [("Berlin", 29), ("Buenos Aires", 32), ("Los Angeles", 38), ("Helsinki", 30), ("Paris", 28)]
-#
-# def celsius_to_farenheit(C_temp):
-#     return (4.5*C_temp + 32)
-#
-# a,b,c,d = map(celsius_to_farenheit, temps)
-# print(a,"\n", b, '\n', c, '\n', d)
-# @lru_cache(maxsize= 500)
-# def fibonacci(n):
-#     if n == 1:
-#         return 1
-#     elif n == 2:
-#         return 1
-#     elif n > 2:
-#         return (fibonacci(n-1) + fibonacci(n-2))
-#
-# for i in range(1,501):
-#     if i == 1:
-#         print(f"1st fibonacci term is: {fibonacci(i)}")
-#     else:
-#         print(f"{i}th fibonacci term is: {fibonacci(i)}")
+
